@@ -1,13 +1,13 @@
 import '../App.css';
+import AppNavBar from '../components/AppNavbar';
 
 function ProfilePage() {
   return (
     <div className="App">
-      <header className="App-header">
+      <AppNavBar />
         <p>
           This is the Profile Page!
         </p>
-      </header>
     </div>
   );
 }
