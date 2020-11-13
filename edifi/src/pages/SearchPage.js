@@ -1,5 +1,3 @@
-import '../App.css';
-
 function SearchPage() {
   return (
     <div className="App">

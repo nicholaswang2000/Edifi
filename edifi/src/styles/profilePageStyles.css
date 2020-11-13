@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*
+Geo's new stuff. Delete everything above later
+*/
+
+.Profile-page {
+  background-color: #dfdfdf;
+}
+
+.Profile-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 7px #818181;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 80px;
+}
+
+.Profile-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 25px;
+  margin: 40px; 
+  pointer-events: none;
+}
+
+.Profile-innertext {
+  background-color: #ffffff;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px ;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 80px;
+  font-family: 'Poppins-Regular', Impact, sans-serif;
+  font-size: 15px;
+  
+}
+
+.Name-text {
+  font-family: 'Poppins-Bold', Impact, sans-serif;
+  font-size: 35px;
+}
+
+.School-text {
+  color: grey;
+}
+
+.Opportunities-text {
+  margin-left: 85px;
+  font-family: 'Poppins-Medium', Impact, sans-serif;
+  font-size: 24px;
+}
+
+.Listing {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7px #818181;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  margin: 80px;
+  margin-top: 10px ;
+}
+
+.Listing-innertext {
+  background-color: #ffffff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px ;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 80px;
+  font-family: 'Poppins-Regular', Impact, sans-serif;
+  font-size: 15px;
+}
+
+.Contact-button {
+  background-color: #2B99FE;;
+  box-shadow: 0px 0px 7px #818181;
+  border-radius: 20px;
+  margin: 15px;
+  min-height: 250px;
+  min-width: 250px;
+}
+
+.Contact-buttontext {
+  font-family: 'Poppins-SemiBold', Impact, sans-serif;
+  font-size: 24px;
+  text-shadow: 0px 2px #5e5c5c;
+}
+
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('./poppins/Poppins-Regular.otf')
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('./poppins/Poppins-Bold.otf')
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('./poppins/Poppins-Medium.otf')
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('./poppins/Poppins-SemiBold.otf')
+}

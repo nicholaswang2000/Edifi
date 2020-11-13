@@ -2,7 +2,6 @@ import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 import logo from '../logo.svg';
-import '../App.css';
 
 // Serves as the temporary home screen to make navigation in development easier
 function NavigationPage() {
