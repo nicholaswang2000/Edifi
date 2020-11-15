@@ -7,16 +7,25 @@ import NavigationPage from './pages/NavigationPage'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+// Redux imports
+import { Provider } from 'react-redux';
+import store from './store';
+
 function App() {
   return (
-    <Router>
-          <Switch>
-            <Route path="/" exact component={NavigationPage} />
-            <Route path="/Login" exact component={LoginPage} />
-            <Route path="/Profile" exact component={ProfilePage} />
-            <Route path="/Search" exact component={SearchPage} />
-          </Switch>
-    </Router>
+    //Provider allows redux to be used
+    <Provider store={store}>
+      
+      {/*Routing is to simulate pages*/}
+      <Router>
+            <Switch>
+              <Route path="/" exact component={NavigationPage} />
+              <Route path="/Login" exact component={LoginPage} />
+              <Route path="/Profile" exact component={ProfilePage} />
+              <Route path="/Search" exact component={SearchPage} />
+            </Switch>
+      </Router>
+    </Provider>
   );
 }
 
