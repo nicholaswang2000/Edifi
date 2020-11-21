@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 class MongoDatabase:
-    URI = 'mongodb+srv://EdifiUser:mdb@edifi.v0mq7.mongodb.net/Edifi?retryWrites=true&w=majority'
+    URI = 'mongodb+srv://<INSERT_USERNAME_HERE>:<INSERT_PASSWORD_HERE>@edifi.v0mq7.mongodb.net/Edifi?retryWrites=true&w=majority'
     DATABASE = None
     
     @staticmethod
