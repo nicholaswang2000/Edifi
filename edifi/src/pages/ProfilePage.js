@@ -1,6 +1,5 @@
 import AppNavBar from '../components/AppNavbar';
 import profilePic from '../resources/55.jpg';
-import { Button } from 'reactstrap';
 import { useSelector } from "react-redux";
 import OppurtunityListing from '../components/OpportunityListing';
 

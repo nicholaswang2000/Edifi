@@ -1,0 +1,159 @@
+
+.Search-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Search-buttons {
+  flex-direction: row;
+}
+
+.Search-button {
+  background-color: #2B99FE;;
+  box-shadow: 0px 0px 7px #818181;
+  border-radius: 20px;
+  margin: 15px;
+}
+
+.Filter-row {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.Result-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 7px #818181;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin: 80px;
+}
+
+.Result-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 25px;
+  margin: 40px; 
+  pointer-events: none;
+}
+
+.Result-description {
+  background-color: #ff0000;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.Result-innertext {
+  background-color: #ffffff;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px ;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 80px;
+  font-family: 'Poppins-Regular', Impact, sans-serif;
+  font-size: 15px;
+  
+}
+
+.Result-text {
+  font-family: 'Poppins-Bold', Impact, sans-serif;
+  font-size: 35px;
+}
+
+.Result-title {
+  color: grey;
+}
+
+.Opportunities-text {
+  margin-left: 85px;
+  font-family: 'Poppins-Medium', Impact, sans-serif;
+  font-size: 24px;
+}
+
+.Listing {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7px #818181;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  margin: 80px;
+  margin-top: 10px ;
+}
+
+.Listing-innertext {
+  background-color: #ffffff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px ;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 80px;
+  font-family: 'Poppins-Regular', Impact, sans-serif;
+  font-size: 15px;
+}
+
+.Contact-button {
+  background-color: #2B99FE;;
+  box-shadow: 0px 0px 7px #818181;
+  border-radius: 20px;
+  margin: 15px;
+  min-height: 250px;
+  min-width: 250px;
+}
+
+.Contact-buttontext {
+  font-family: 'Poppins-SemiBold', Impact, sans-serif;
+  font-size: 24px;
+  text-shadow: 0px 2px #5e5c5c;
+}
+
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('./poppins/Poppins-Regular.otf')
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('./poppins/Poppins-Bold.otf')
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('./poppins/Poppins-Medium.otf')
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('./poppins/Poppins-SemiBold.otf')
+}

@@ -3,8 +3,6 @@ import { Button } from 'reactstrap';
 import '../styles/profilePageStyles.css';
 
 function OppurtunityListing(props) {
-  console.log(props)
-  console.log(props.opportunity.title)
   return (
         <div className="Listing">      
           <div className="Listing-innertext">
