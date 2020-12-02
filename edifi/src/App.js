@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
 import SearchPage from './pages/SearchPage'
 import NavigationPage from './pages/NavigationPage'
+import LoginPage from './components/login/LoginPage'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './App.scss';
 
 // Redux imports
 import { Provider } from 'react-redux';
