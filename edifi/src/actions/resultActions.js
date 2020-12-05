@@ -1,9 +1,16 @@
 import axios from 'axios';
-import { GET_ITEMS, ADD_ITEM, DELETE_ITEM, ITEMS_LOADING } from './types';
+import { GET_ITEMS, ADD_ITEM, DELETE_ITEM, DELETE_ALL, ITEMS_LOADING } from './types';
 
 /* Template code. Will be changed upon completion of backend
 */
 export const getItems = () => dispatch => {
+    console.log("Getting All")
+
+    dispatch({
+        type: DELETE_ALL
+    })
+    
+    /*
     dispatch(setItemsLoading());
     axios
         .get('/api/items')
@@ -13,6 +20,7 @@ export const getItems = () => dispatch => {
                 payload: res.data
            })
             )
+    */
 };
 
 export const addItem = item => dispatch => {
@@ -32,6 +40,13 @@ export const deleteItem = id => dispatch => {
             type: DELETE_ITEM,
             payload: id
         }))
+};
+
+export const deleteAll = () => dispatch => {
+    console.log("Deleting All")
+    dispatch({
+        type: DELETE_ALL
+    })
 };
 
 export const setItemsLoading = () => {

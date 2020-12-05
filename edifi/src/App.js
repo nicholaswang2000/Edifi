@@ -5,7 +5,7 @@ import NavigationPage from './pages/NavigationPage'
 import LoginPage from './components/login/LoginPage'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.scss';
+import './App.css';
 
 // Redux imports
 import { Provider } from 'react-redux';

@@ -17,8 +17,7 @@ const initialState = {  userName: 'Brandon Wilson',
                                         description: `In my capstone course, several students are developing apps as their final
                                                       project. I think getting advice for mobile dev from a mobile developer would
                                                       really push them to go above and beyond with their projexts`
-                                        }
-                                        ],
+                                        }],
                         
 };
 /* Template code. Will be changed upon completion of backend

@@ -16,7 +16,7 @@ function ProfilePage() {
       <div className="Profile-card">
         <img src={profilePic} className="Profile-picture" alt="profilePic" />
         <div className="Profile-innertext">
-          <h1 className="Name-text">{reduxState.userSchool}</h1>
+          <h1 className="Name-text">{reduxState.userName}</h1>
           <p className="School-text">{reduxState.userSchool}</p>
           <p>{reduxState.userDescription}</p>
         </div>
